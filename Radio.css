@@ -95,10 +95,6 @@ body{
     text-indent: 10px;
 }
 
-#titulo-autor{
-    height: 15%;
-}
-
 .titulo-autor{
     display: flex;
     align-items: center;
@@ -106,18 +102,17 @@ body{
 }
 
 #cuerpo{
-    height: 75%;
+    height: 80%;
     background-color: rgb(107, 139, 235);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-p{
-    padding: 20px;
+#Radio{
+    width: 90%;
 }
 
 #titulo{
-    height: 50%;
-}
-
-#autor{
-    height: 50%;
+    height: 10%;
 }
