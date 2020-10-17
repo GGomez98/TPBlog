@@ -110,8 +110,36 @@ body{
     background-color: rgb(107, 139, 235);
 }
 
-p{
+.cuerpo{
     padding: 20px;
+}
+
+.texto{
+    text-indent: 5%;
+    margin-bottom: 5%;
+}
+
+#nota{
+    height: 60%;
+    column-count: 3;
+    column-gap: 3%;
+    column-width: 5em;
+    font-size: 115%;
+}
+
+#enlace{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.enlace{
+    width: 100%;
+    font-size: 120%;
+    margin-bottom: 10px;
+}
+
+.enlace:hover{
+    color: white;
 }
 
 #titulo{
@@ -120,4 +148,5 @@ p{
 
 #autor{
     height: 50%;
+    font-style: italic;
 }
