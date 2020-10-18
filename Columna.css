@@ -6,7 +6,7 @@
 body{
     display: flex;
     background: radial-gradient(farthest-corner at 45px 45px , #FFF 0%, #0808e4 100%);
-    height: 100vh;
+    height: 115vh;
     align-items: center;
     font-family: Bebas Neue;
 }
@@ -21,7 +21,7 @@ body{
     max-width: 100%;
     display: block;
     height: 100%;
-    width: 100%;
+    width: 99.7%;
 }
 
 #main-container{
@@ -32,7 +32,7 @@ body{
 }
 
 #container{
-    height: 80vh;
+    height: 95vh;
     width: 100%;
     display: flex;
     background-color: rgba(50, 50, 250, 0.3);
@@ -45,6 +45,12 @@ body{
     width: 15%;
     font-size: 200%;
     height: 100%;
+}
+
+img{
+    width: 45px;
+    height: 45px;
+    padding: 0px 5px;
 }
 
 #contacto{
@@ -63,6 +69,7 @@ body{
     color: white;
     text-decoration: none;
     text-indent: 10px;
+    font-size: 80%;
 }
 
 .seccionIndice:hover{
@@ -110,7 +117,17 @@ body{
     background-color: rgb(107, 139, 235);
 }
 
-p{
+#LSA{
+    display: flex;
+    align-items: center;
+}
+
+#nota{
+    height: 60%;
+    column-count: 3;
+    column-gap: 3%;
+    column-width: 5em;
+    font-size: 115%;
     padding: 20px;
 }
 
@@ -120,4 +137,40 @@ p{
 
 #autor{
     height: 50%;
+    font-style: italic;
+}
+
+#accesibilidad{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+#titulo-audio{
+    width: 100%;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+#audio{
+    width: 100%;
+}
+
+@media (max-width:1440px){
+    #nota{
+   font-size: 95%;
+}
+    .seccionIndice{
+    font-size:50%
+}
+    img{
+    height:30px;
+    width:30px;
+}
+}
+
+@media (max-width:1280px){
+    #nota{
+  font-size: 85%;
+}
 }
