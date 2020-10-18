@@ -54,7 +54,6 @@ img{
 }
 
 #contacto{
-    border: red solid 1px;
     height: 100%;
 }
 
@@ -163,7 +162,7 @@ img{
 
 @media (max-width:1440px){
     #container{
-    height: 290vh
+    height: 304vh
 }
 
     .seccionIndice{

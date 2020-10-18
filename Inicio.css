@@ -54,7 +54,6 @@ img{
 }
 
 #contacto{
-    border: red solid 1px;
     height: 100%;
 }
 
@@ -94,6 +93,25 @@ img{
     border-bottom: 0px;
 }
 
+#ig-mail{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.direccion{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#ig{
+    display: flex;
+    justify-content: flex-start;
+    width: 17%;
+}
+
 #fecha{
     height: 10%;
     background-color: rgba(150, 150, 150, 0.7);
@@ -115,10 +133,34 @@ img{
 #cuerpo{
     height: 100%;
     background-color: rgb(107, 139, 235);
+    display: flex;
+    flex-wrap: wrap;
 }
 
-p{
-    padding: 20px;
+#referencias{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.referencia{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 5px;
+}
+
+#Bienvenido{
+    font-size: 200%;
+    margin-bottom: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#cartel{
+    width: 100%;
 }
 
 #titulo{
@@ -127,6 +169,20 @@ p{
 
 #autor{
     height: 50%;
+}
+
+#titulo-audio{
+    width: 100%;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+#accesibilidad{
+    width: 100%;
+}
+
+#audio{
+    width: 100%;
 }
 
 @media (max-width:1440px){
