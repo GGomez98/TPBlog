@@ -182,3 +182,7 @@ img{
     height:3.7%;
 }
 }
+@media (max-width:1024px){
+    #container{
+    height: 360vh;
+}
