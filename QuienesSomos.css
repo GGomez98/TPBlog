@@ -93,6 +93,10 @@ img{
     border-bottom: 0px;
 }
 
+#texto{
+    font-size: 130%;
+}
+
 #fecha{
     height: 10%;
     background-color: rgba(150, 150, 150, 0.7);

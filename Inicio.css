@@ -175,6 +175,7 @@ img{
     width: 100%;
     background-color: white;
     margin-bottom: 20px;
+    font-size: 140%;
 }
 
 #accesibilidad{
@@ -183,6 +184,10 @@ img{
 
 #audio{
     width: 100%;
+}
+
+#LSA{
+    font-size: 120%;
 }
 
 @media (max-width:1440px){
